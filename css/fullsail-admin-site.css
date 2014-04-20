@@ -1,0 +1,84 @@
+/* member side menu */
+div#admin-content { width: 960px; height: auto;  margin: auto; clear: both; }
+div#admin-nav-bar { width: 210px;  float: left; background-image: url('../images/admin-menu-bg.png'); background-repeat: repeat-y; }
+
+div#admin-nav-bar a { padding-left: 9px; width: 210px; text-shadow: 0px 0px 0px #000; }
+div#admin-nav-bar a:link { color: #5193d6; }
+div#admin-nav-bar a:visited { color: #5193d6;}
+div#admin-nav-bar a:hover { color: #e9671f; text-shadow: 1px 1px 1px #000;}
+div#admin-nav-bar a:active { color: #5193d6; }
+
+div#admin-nav-bar ul {padding: 0px; padding-bottom: 0px;}
+div#admin-nav-bar ul li { background-image: url('../images/admin-menu-bg.png'); background-repeat: repeat-y; color: #fff; text-shadow: 2px 2px 2px #000; padding: 10px; border-top: 1px solid #fff; border-bottom: 1px solid #999; }
+div#admin-nav-bar ul li.filler { border: 1px none; border-bottom: 1px solid #999; background-image: none;}
+div#admin-nav-bar ul li.selected { border: 2px none; width:210px; padding-right: 12px; background-image: url('../images/member-active.png'); background-repeat: no-repeat; background-position: 0px; }
+div#admin-nav-bar ul li.selected a { color: #fff; text-shadow: 1px 1px 1px #000;}
+
+div#admin-member-content { margin-left: 20px; margin-bottom: 20px; width: 720px; height: auto; float: left; }
+
+
+/* content-member-bio */
+
+/* close help */
+.close { width: 16px; height: 16px; float:right; }
+#help { width: 700px; margin: auto; background-color: #FAFAFA; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 15px; border: 1px solid #dcdcdc; }
+#help li h1 { margin: 0px; }
+#help li { padding:  5px; }
+
+/* info */
+.info { width: 700px; margin: 10px auto; background-color: #FAFAFA; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 15px; border: 1px solid #dcdcdc; }
+.info li h1 { margin: 0px; }
+.info li { padding:  5px; }
+
+/* form specifications */
+textarea { width: 500px; height: 200px;}
+input { padding:  5px; width: 300px; font-size: 18px; }
+
+
+/* table list */
+#datalist { margin-top: 10px;  width: 700px; }
+#datalist tr { }
+#datalist th { text-align: left; padding: 15px;}
+#datalist td { padding: 15px;  }
+#datalist tr td img { width: 100px;  }
+#datalist tr td img.action-icon { width: 24px;  }
+#form { width: 525px; }
+
+#form li { padding-top: 15px;}
+
+/* tool icon setup */
+#datalist tr td img.tool-icon { width: 32px;}
+/*  Part of the new tools section of the add project page on member side */
+
+.tool { display: inline; }
+div.tool_images {float: left; }
+li.icons { float: left; width: 400px; height: auto; }
+#tools { width: 64px; height: 64px; /*border: 1px dotted #e78f08;*/ background-image: url('../images/add.png'); background-repeat: no-repeat;}
+div#tools_added { float: left; width: 500px; padding-left: 65px; margin: 5px;  }
+li#tools { margin-bottom: 20px;   }
+
+li#tools_available { clear: both; } /* clearing for text */
+
+li.divider { clear: both; margin-top: 100px; }
+
+/* project update page */
+p img#project-image-update { width: 200px; margin: auto; }
+
+/*  Manage Porfolio   */
+.data img.project_image { width: 100px; }
+#trash {  float: left; width: 64px; height: 64px; background-color: #ff00ff;}
+#image_change_form { width: auto;}
+
+/* general form setup */
+#form {}
+#form label { display: block; }
+#form ul { padding: 0px; }
+#form ul li { padding-top: 10px; }
+
+ul#form { padding: 10px 0 0 0; margin: 0px; }
+
+/* icons */
+#datalist tr td.action-icons img { width: 24px; }
+#datalist tr td.icons img { width: 32px; }
+#form ul li.social_media_icon { width: 32px; float: left; padding: 3px; }
+#form ul li.your-social-media-icon { clear: both; }
